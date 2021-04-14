@@ -81,14 +81,14 @@
                                 </div>
                                 <div>
                                     <span
-                                        class="p-4 badge badge-danger rounded-lg">{{payload.notification_count}}</span>
+                                        class="p-4 badge badge-danger rounded-lg">{{payload?.notification_count}}</span>
                                 </div>
                             </div>
                         </li>
                         <li class="nav-item ">
                             <div class="d-flex justify-content-between bg-item user-notity-icon">
                                 <div class="mr-3">
-                                    <h6><b>{{payload.logged_user}}</b></h6>
+                                    <h6><b>{{payload?.logged_user}}</b></h6>
                                     <p>Vanity By Juls</p>
                                 </div>
                                 <div>
@@ -170,7 +170,7 @@
                                             <p><i class="fa fa-circle" style="color: #D7E2ED;"></i> Balance</p>
                                         </div>
                                     </div>
-                                    <div *ngIf="chart_label != assets" class="d-flex justify-content-between">
+                                    <div *ngIf="chart_stat.chart_label != 'assets'" class="d-flex justify-content-between">
                                         <div>
                                             <p>Total Spent (NGN))</p>
                                             <h6><b>{{formatNumber(chart_stat.spent)}}</b></h6>
@@ -180,7 +180,7 @@
                                             <h6><b>{{formatNumber(chart_stat.balance)}}</b></h6>
                                         </div>
                                     </div>
-                                    <div *ngIf="chart_label == assets" class="d-flex justify-content-between">
+                                    <div *ngIf="chart_stat.chart_label == 'assets'" class="d-flex justify-content-between">
                                         <div>
                                             <p>card in-use</p>
                                             <h6><b>342,383</b></h6>
