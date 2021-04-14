@@ -23,9 +23,15 @@ export class DashboardComponent implements OnInit {
   getInfo() {
     this.dashService.getDashboardInfo().subscribe(res => {
       this.payload = res[0];
+      console.log({ res: this.payload });
+
       this.chart_stats = res[0].chart_stat
       console.log({ test: this.chart_stats });
     })
+  }
+
+  formatNumber(n){
+    return n.toLocaleString()
   }
 
 }
