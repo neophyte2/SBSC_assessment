@@ -1,0 +1,40 @@
+<div class="container-fluid auth-container">
+    <div class="row">
+        <div class="col-md-7 bg-section">
+        </div>
+        <div class="col-md-5 ">
+            <div class="form-content">
+                <div class="form-input" method="POST">
+                    <div class="ui-wrapper-xxlarge">
+                        <div>
+                            <img src="/assets/images/express.png" />
+                        </div>
+                        <h1 class="login-text-style"> Login to <br>your account </h1>
+                        <p class="welcome-text-style">Welcome back!Please login to your account</p>
+                        <br>
+                        <div>
+
+                            <input type="email" id="email" name="email" placeholder="KTS12562892"
+                                class="gen-input browser-default form-control" style="width: 400px" required>
+                            <div class="space-30"></div>
+
+                            <br>
+
+                            <input type="password" id="password" name="password" placeholder="Enter Password"
+                                class="form-control gen-input browser-default" style="width: 400px" required>
+                            <br>
+                            <button (click)="login()" class="login-btn">
+                                LOG IN
+                            </button>
+                            <br>
+                            <a style="text-align: center !important; cursor: pointer;" class="forgot-style">
+                                <p>Forgot Password</p>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

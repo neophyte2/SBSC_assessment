@@ -1,0 +1,61 @@
+.welcome-card .card {
+  background: linear-gradient(147.87deg, #133F77 26.36%, #0F9CDA 125.59%);
+}
+
+.request-card .card {
+  background: #E5EEFB;
+}
+
+.welcome-card .card,
+.request-card .card {
+  height: 250px;
+}
+
+.welcome-card img,
+.request-card img {
+  position: absolute;
+  top: 112px;
+  left: 67%;
+}
+
+.request-card img {
+  position: absolute;
+  top: 120px;
+  left: 60%;
+}
+
+.text-lt-blue {
+  color: #78C2ED;
+}
+
+.text-blue {
+  color: #1B5BAC;
+}
+
+.btn-blue {
+  background: #1B5BAC;
+  color: white;
+}
+
+.dash-top-card .card {
+  border-radius: 10px;
+}
+
+#donutchart svg g:nth-child(1) {
+  display: none !important;
+}
+
+.budeget-cards .section-footer {
+  padding: 16px;
+  border-radius: 10px;
+}
+
+.budeget-cards .work-card .section-footer {
+  background: #FFF7F5;
+}
+
+.budeget-cards .card {
+  border: 0px;
+  border-radius: 10px;
+}
+

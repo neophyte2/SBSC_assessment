@@ -1,1 +1,59 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+@import 'assets/css/style.css';
+@import 'assets/css/dashboard.css';
+
+body {
+    font-family: 'gilroymedium';
+}
+.form-control{
+    box-shadow: none !important;
+}
+.custom-control-input:focus ~ .custom-control-label::before {
+    box-shadow:none !important;
+  }
+.hr-line{
+    border: 1.5px solid #03705C;
+    font-size: 10px;
+    width: 50px;
+    margin-top: 14px; 
+    background: #03705C;
+    margin-right: 10px;
+}
+.is-clickable{
+    cursor: pointer;
+}
+.bg-faint-green {
+    background: #F8FFFE;
+}
+.primary-btn {
+    font-family: 'gilroymedium' !important;
+    background-color: #02BC9A !important;
+    color: white;
+}
+.primary-outline-btn {
+    background-color: white;
+    color: #02BC9A;
+    border-color: #02BC9A;
+}
+.primary-btn:hover {
+    color: whitesmoke;
+}
+.primary-dark-btn {
+    font-family: 'gilroymedium' !important;
+    background-color: #024348 !important;
+    color: white;
+}
+.primary-dark-btn:hover {
+    color: whitesmoke;
+}
+
+.page-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #024348;
+    font-weight: bold;
+}
+
