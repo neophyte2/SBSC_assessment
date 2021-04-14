@@ -30,8 +30,12 @@ export class DashboardComponent implements OnInit {
     })
   }
 
-  formatNumber(n){
+  formatNumber(n) {
     return n.toLocaleString()
+  }
+
+  totalCard(a, b) {
+    return (a + b).toLocaleString()
   }
 
 }
