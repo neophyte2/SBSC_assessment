@@ -17,4 +17,6 @@ function drawChart() {
   chart.draw(data, options);
   var chartx = new google.visualization.PieChart(document.getElementById('donutchartx'));
   chartx.draw(data, options);
+  var countChart = new google.visualization.PieChart(document.getElementById('countChart'));
+  countChart.draw(data, options);
 }

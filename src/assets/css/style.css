@@ -1,61 +1,75 @@
 .welcome-card .card {
-  background: linear-gradient(147.87deg, #133F77 26.36%, #0F9CDA 125.59%);
+    background: linear-gradient(147.87deg, #133F77 26.36%, #0F9CDA 125.59%);
 }
-
 .request-card .card {
-  background: #E5EEFB;
+    background: #E5EEFB;
 }
-
-.welcome-card .card,
-.request-card .card {
-  height: 250px;
+.welcome-card .card, .request-card .card {
+    height: 250px;
 }
-
-.welcome-card img,
+.welcome-card img, .request-card img {
+    position: absolute;
+    top: 112px;
+    left: 67%;
+}
 .request-card img {
-  position: absolute;
-  top: 112px;
-  left: 67%;
+    position: absolute;
+    top: 120px;
+    left: 61%;
 }
-
-.request-card img {
-  position: absolute;
-  top: 120px;
-  left: 60%;
-}
-
 .text-lt-blue {
-  color: #78C2ED;
+    color: #78C2ED;
 }
-
 .text-blue {
-  color: #1B5BAC;
+    color: #1B5BAC;
 }
-
 .btn-blue {
-  background: #1B5BAC;
-  color: white;
+    background: #1B5BAC;
+    color: white;
 }
-
 .dash-top-card .card {
-  border-radius: 10px;
+    border-radius: 10px;
 }
-
 #donutchart svg g:nth-child(1) {
-  display: none !important;
+    display: none !important;
 }
-
 .budeget-cards .section-footer {
-  padding: 16px;
-  border-radius: 10px;
+    padding: 16px;
+    border-radius: 10px;
 }
-
 .budeget-cards .work-card .section-footer {
-  background: #FFF7F5;
+    background: #FFF7F5;
 }
-
 .budeget-cards .card {
-  border: 0px;
-  border-radius: 10px;
+    border: 0px;
+    border-radius: 10px;
 }
-
+.budeget-cards .count-card header{
+    background: #47ADBF;
+}
+.budeget-cards .count-card .card {
+    background: #4095B8;
+}
+.budeget-cards .count-card .section-footer {
+    background: #32709D;
+}
+.budeget-cards .count-card header {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.bg-item {
+    background-position-x: left;
+    background-position-y: bottom;
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+    box-shadow: 0px 10px 20px rgba(184, 193, 209, 0.1);
+    border-radius: 10px;
+    padding: 15px;
+    width: 350px;
+}
+.bell-notity-icon {
+    background-image: url('../icons/yellow-bell.svg');
+}
+.user-notity-icon {
+    background-image: url('../icons/blue-user.svg');
+}

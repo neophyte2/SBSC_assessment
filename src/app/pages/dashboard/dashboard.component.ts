@@ -8,6 +8,8 @@ import { DashboardService } from './dashboard.service';
 })
 export class DashboardComponent implements OnInit {
 
+
+  chart_stats: []
   payload;
 
   constructor(
@@ -20,9 +22,9 @@ export class DashboardComponent implements OnInit {
 
   getInfo() {
     this.dashService.getDashboardInfo().subscribe(res => {
-      console.log({ res });
-      const payload = res[0]
-      console.log({ payload });
+      this.payload = res[0];
+      this.chart_stats = res[0].chart_stat
+      console.log({ test: this.chart_stats });
     })
   }
 
